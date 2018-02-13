@@ -10,6 +10,9 @@ This is a personal sms reminder service written in Clojure. It's designed to run
 
 
 ### TODO:
+- Code cleanup + refactoring
 - Make usable for other people
 - Use `prettytime-nlp` to parse incoming messages as natural language/in a less strict format
 - Add `org-mode` integration through Dropbox
+
+
