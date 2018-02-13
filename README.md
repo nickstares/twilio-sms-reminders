@@ -1,36 +1,15 @@
 # twilio-sms-reminders
+#### (work in progress)
 
-FIXME: description
+This is a personal sms reminder service written in Clojure. It's designed to run on Heroku, using Temporize for scheduling jobs and Twilio for sending and receiving sms messages.
 
-## Installation
+### Features:
+- Send text message to your Twilio number in format `{Notification Title} ; {h:mma MM-dd-yy}` e.g. `Dinner with Andre ; 7:00PM 10-11-1981`
 
-Download from http://example.com/FIXME.
+- receive text message with reminder info at that time
 
-## Usage
 
-FIXME: explanation
-
-    $ java -jar twilio-sms-reminders-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2018 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+### TODO:
+- Make usable for other people
+- Use `prettytime-nlp` to parse incoming messages as natural language/in a less strict format
+- Add `org-mode` integration through Dropbox
