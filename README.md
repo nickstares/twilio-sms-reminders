@@ -1,5 +1,4 @@
 # twilio-sms-reminders
-#### (work in progress)
 
 This is a personal sms reminder service written in Clojure. It's designed to run on Heroku, using Temporize for scheduling jobs and Twilio for sending and receiving sms messages.
 
